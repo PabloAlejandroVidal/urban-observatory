@@ -18,3 +18,7 @@ Plataforma fullstack para visualización y análisis de datos urbanos y geoespac
 - `docs`: documentación técnica
 - `infra`: configuración de despliegue
 - `data`: datasets de ejemplo o referencias a fuentes públicas
+
+## Requirements
+
+- Git
