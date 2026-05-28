@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Angular / Nest / TypeScript
+.angular/
+.nx/
+.cache/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Runtime / uploads / generated files
+uploads/
+storage/
+tmp/
+temp/
+
+# Data files - avoid committing heavy datasets
+data/raw/
+data/processed/
+*.geojson
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.tif
+*.tiff
+
+# Keep sample data if needed
+!data/samples/
+!data/samples/**
+
+# Docker local volumes
+docker-data/
+postgres-data/
