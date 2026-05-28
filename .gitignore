@@ -62,3 +62,6 @@ data/processed/
 # Docker local volumes
 docker-data/
 postgres-data/
+
+# Personal notes
+notes/
